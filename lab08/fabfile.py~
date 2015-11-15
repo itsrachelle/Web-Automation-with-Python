@@ -1,0 +1,23 @@
+from fabric.contrib.files import exists
+
+from fabric.api import env,local,run,sudo
+
+from fabric.operations import get,put
+
+env.hosts = ["140.192.30.237"]
+
+env.user = "user1358417tmp"
+
+env.password = "987654321"
+
+def zip_and_retrieve(folder):
+  run("zip -r folder.zip %s" %folder)
+  get("folder.zip", "%s.zip" %folder)
+  
+
+def deploy_and_unzip(zipfile,folder):
+  if not exists(folder): 
+      run("rm folder")
+
+  put(zipfile,zipfile)
+  run("unzip -o %s -d %s" % (zipfile,folder)) #-o for zip -d for folder exist 

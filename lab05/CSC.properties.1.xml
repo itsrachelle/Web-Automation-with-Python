@@ -1,0 +1,20 @@
+<m:properties>
+<d:crseid>001362</d:crseid>
+<d:subjectid>CSC</d:subjectid>
+<d:catalognbr>200</d:catalognbr>
+<d:subjectdescription>Computer Science</d:subjectdescription>
+<d:descr>Survey of Computing</d:descr>
+<d:coursetitlelong>Survey of Computing</d:coursetitlelong>
+<d:typicallyoffered>Autumn/Winter/Spring Terms</d:typicallyoffered>
+<d:descrlong>An introduction of various careers in the field ofinformation technology are explored. A hands-on component will deal withstate of the art personal computer operating systems, applications, databasesystems, Internet, email, and basic web site construction. The structure ofthe course utilizes both classroom lectures and computer classroom labs.This course is geared towards the non-major and assumes no prior knowledgeor experience in Computer Science.</d:descrlong>
+<d:effstatus>A</d:effstatus>
+<d:effdt m:type="Edm.DateTime">2011-09-23T00:00:00</d:effdt>
+<d:rqmntdesigntn>Si</d:rqmntdesigntn>
+<d:iscdmgeneral m:type="Edm.Boolean">true</d:iscdmgeneral>
+<d:isinclassonly m:type="Edm.Boolean">false</d:isinclassonly>
+<d:isinclassandonline m:type="Edm.Boolean">false</d:isinclassandonline>
+<d:isonlineonly m:type="Edm.Boolean">true</d:isonlineonly>
+<d:isnotoffered m:type="Edm.Boolean">false</d:isnotoffered>
+<d:collegeid>SCTI</d:collegeid>
+<d:componentprimary>LEC</d:componentprimary>
+</m:properties>
